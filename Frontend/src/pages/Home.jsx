@@ -76,3 +76,5 @@ function Home() {
 }
 
 export default withAuth(Home);
+
+// "build": "vite build",
