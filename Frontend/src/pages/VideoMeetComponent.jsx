@@ -15,10 +15,11 @@ import MicOffIcon from '@mui/icons-material/MicOff';
 import ScreenShareIcon from "@mui/icons-material/ScreenShare";
 import StopScreenShareIcon from "@mui/icons-material/StopScreenShare";
 import ChatIcon from "@mui/icons-material/Chat"
+import server from '../env.js';
 
 
 
-const server_url = "http://localhost:2000";
+const server_url = server;
 var connections = {};   // peoples who are connected to us
 
 const peerConfigConnections = {
